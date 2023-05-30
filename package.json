@@ -1,0 +1,21 @@
+{
+  "name": "projet-doctor-who",
+  "version": "1.0.0",
+  "description": "Projet Doctor Who",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "npm": "^9.6.7",
+    "pg": "^8.11.0"
+  }
+}

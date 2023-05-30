@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs') %>
+
+<main>
+    <section>
+        <% doctors.forEach(doctor => { %>
+            <a href="#"></a> 
+                <article>
+                    <img src="/img/doctors/<%= doctor.doctor_numero %>.jpg" alt="<%= doctor.doctor_name %>">
+                </article>
+        <%})%>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
