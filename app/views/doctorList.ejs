@@ -3,9 +3,10 @@
 <main>
     <section>
         <% doctors.forEach(doctor => { %>
-            <a href="#"></a> 
-                <article>
+            <article>
+                    <a href="/doctor/details/<%= doctor.doctor_numero %>">
                     <img src="/img/doctors/<%= doctor.doctor_numero %>.jpg" alt="<%= doctor.doctor_name %>">
+                    </a> 
                 </article>
         <%})%>
     </section>

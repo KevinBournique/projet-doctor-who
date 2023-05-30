@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+
+
+<main>
+    <section>
+        <h1>Details du Doctor</h1>
+                <article>
+                    <img src="/img/doctors/<%= doctor.doctor_numero %>.jpg" alt="<%= doctor.doctor_name %>">
+                    #<%= doctor.doctor_numero %>
+                </article>
+                <h3>Informations</h3>
+                <ul>
+                    <li>Numéro : <%= doctor.doctor_numero %></li>
+                    <li>Nom et prénom de l'acteur : <%= doctor.doctor_name %></li>
+                    <li>Date de naissance de l'acteur : <%= doctor.birth_date %></li>
+                    <li>Première apparition : <%= doctor.first_episode_date %></li>
+                    <li>Dernière apparition : <%= doctor.last_episode_date %></li>
+                </ul>
+    </section>
+</main>
+
+
+
+
+<%- include('partials/footer.ejs') %>

@@ -1,10 +1,11 @@
 const express = require('express');
-const doctorController = require('../controllers/tardisController');
+const tardisController = require('../controllers/tardisController');
 const router = express.Router(); 
 
-router.get('/', doctorController.arrivalPage);
-router.get('/homePage', doctorController.homePage);
-router.get('/doctor/list', doctorController.doctorList);
+router.get('/', tardisController.arrivalPage);
+router.get('/homePage', tardisController.homePage);
+router.get('/doctor/list', tardisController.doctorList);
+router.get('/doctor/details/:nuemro', tardisController.doctorDetails);
 
 
 

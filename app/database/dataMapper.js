@@ -11,6 +11,18 @@ const dataMapper = {
 
         return result.rows;
     },
+
+    async getOneDoctor (numero) {
+
+        const query = `
+            SELECT * 
+            FROM doctor
+            WHERE doctor_numero = $1
+        `
+        const result = await client.query(query, [numero]);
+        console.log(result)
+        return result.rows;
+    }
 }
 
 module.exports = dataMapper;

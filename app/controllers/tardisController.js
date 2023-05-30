@@ -15,6 +15,14 @@ const tardisController = {
         const doctors = await dataMapper.getAllDoctors();
 
         res.render('doctorList', { doctors });
+    },
+
+    async doctorDetails (req, res) {
+        const numero = req.params.numero;
+
+        const doctor = await dataMapper.getOneDoctor(numero);
+
+        res.render('doctorDetails', { doctor });
     }
 };
 
