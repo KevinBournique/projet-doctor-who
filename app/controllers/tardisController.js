@@ -21,7 +21,7 @@ const tardisController = {
         const numero = req.params.numero;
 
         const doctor = await dataMapper.getOneDoctor(numero);
-
+        console.log(doctor)
         res.render('doctorDetails', { doctor });
     }
 };

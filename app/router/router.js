@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/', tardisController.arrivalPage);
 router.get('/homePage', tardisController.homePage);
 router.get('/doctor/list', tardisController.doctorList);
-router.get('/doctor/details/:nuemro', tardisController.doctorDetails);
+router.get('/doctor/details/:numero', tardisController.doctorDetails);
 
 
 

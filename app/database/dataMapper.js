@@ -20,7 +20,7 @@ const dataMapper = {
             WHERE doctor_numero = $1
         `
         const result = await client.query(query, [numero]);
-        console.log(result)
+        // console.log(result)
         return result.rows;
     }
 }
