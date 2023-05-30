@@ -1,7 +1,7 @@
 <%- include('partials/header.ejs') %>
 
 <main>
-    <section>
+    <section class="doctors">
         <% doctors.forEach(doctor => { %>
             <article>
                     <a href="/doctor/details/<%= doctor.doctor_numero %>">

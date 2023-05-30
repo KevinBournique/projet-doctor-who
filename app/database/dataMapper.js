@@ -21,7 +21,7 @@ const dataMapper = {
         `
         const result = await client.query(query, [numero]);
         // console.log(result)
-        return result.rows;
+        return result.rows[0];
     }
 }
 
