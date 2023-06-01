@@ -12,6 +12,12 @@ const dataMapper = {
         return result.rows;
     },
 
+    async getAllCompanion () {
+
+        const query = "SELECT * FROM companion";
+        const result = await client.query(query);
+    },
+
     async getOneDoctor (numero) {
 
         const query = `

@@ -17,11 +17,17 @@ const tardisController = {
         res.render('doctorList', { doctors });
     },
 
+    async doctorCompanions (req, res){
+
+        const companions = await dataMapper.getAllCompanions();
+
+        res.render('doctorCompanions', { companions });
+    },
+
     async doctorDetails (req, res) {
         const numero = req.params.numero;
 
         const doctor = await dataMapper.getOneDoctor(numero);
-        console.log(doctor)
         res.render('doctorDetails', { doctor });
     }
 };

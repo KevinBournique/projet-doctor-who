@@ -1,0 +1,24 @@
+<%- include('partials/header.ejs') %>
+
+<main>
+    <section class="doctors">
+        <% companions.forEach(companion => { %>
+            <article>
+                    <a href="/companion/details/<%= companion.companion_id %>">
+                    <img src="#" alt="#">
+                    </a> 
+                </article>
+        <%})%>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
