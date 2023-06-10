@@ -122,85 +122,85 @@ INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", 
 INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (12, 1, 'William Hartnell', '1908-01-08', '1963-11-23', '1966-10-29');
 
 -- Ajouter les ennemis
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (1, 'The Autons', 'Murderous mannequins');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (2, 'Lady Cassandra', 'The last living human being');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (3, 'The Gelth', 'An alien species comprised of gas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (4, 'The Slitheen', 'A baby-faced alien family');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (5, 'Daleks', 'Armoured aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (6, 'Jagrafess', 'A hideous, giant slug-like creature');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (7, 'Reapers', 'Winged reptile-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (8, 'The empty child', 'A by-product of a dead four-year-old child');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (9, 'The Sycorax', 'An alien race wearing bone-like masks');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (10, 'Face of Boe', 'A gigantic humanoid head');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (11, 'Sisters of Plenitude', 'A humanoid feline race, also known as "Catkind"');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (12, 'Werewolf', 'A werewolf moster');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (13, 'Krillitanes', 'Carnivorous, winged bat-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (14, 'Clockwork Droids', 'Repair droids wearing scary masks');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (15, 'Cybermen', 'Cyborg race');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (16, 'The Wire', 'An alien lifeform of pure energy, taking human female form');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (17, 'The Ood', 'Aliens with tentacled faces carrying translation spheres');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (18, 'The Beast', 'Gigantic monster claiming to be Satan');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (19, 'The Abzorbaloff', 'Obese alien which absorbs victims through touch');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (20, 'Isolus', 'Alien resembling a small white flower, which will do anything not to be alone');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (21, 'Roboforms', 'Robots disguised as Santas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (22, 'The empress of the Racnoss', 'The empress of a half-human, half arachnid race called the Racnoss');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (23, 'The Judoon', 'Galactic stormtroopers resembling rhinoceroses');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (24, 'Pyrovile', 'Volcano-dwelling creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (25, 'Adipose', 'Small, white, marshmallow-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (26, 'Vashta Nerada', 'Shadow-dwelling creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (27, 'Sontarans', 'Cloned warriors from the planet Sontar');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (28, 'The Family of Blood', 'Shapeshifting aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (29, 'Weeping Angels', 'Quantum-locked angelic beings');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (30, 'The Silence', 'Aliens with the ability to erase memory');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (31, 'The Great Intelligence', 'Sentient disembodied entity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (32, 'Ice Warriors', 'Martian reptilian warriors');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (33, 'Zygons', 'Shape-shifting aliens from Zygor');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (34, 'The Master', 'Time Lord nemesis of the Doctor');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (35, 'Axons', 'Aliens with a deceptive appearance');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (36, 'Krynoids', 'Plant-like creatures with destructive tendencies');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (37, 'Mara', 'Manifestation of evil dreams');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (38, 'Mandrels', 'Primate-like creatures with sharp teeth');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (39, 'Omega', 'Ancient Time Lord and creator of Time Lord technology');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (40, 'Sea Devils', 'Marine cousins of the Silurians');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (41, 'Silurians', 'Reptilian race that ruled the Earth millions of years ago');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (42, 'The Celestial Toymaker', 'Powerful being who creates deadly games');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (43, 'The Black Guardian', 'Manifestation of chaos and darkness');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (44, 'The White Guardian', 'Manifestation of order and light');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (45, 'Krotons', 'Cyborg crystalline entities');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (46, 'Wirrn', 'Giant insectoid creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (47, 'Yeti', 'Robotic Yeti controlled by the Great Intelligence');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (48, 'The Macra', 'Giant crab-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (49, 'Alpha Centauri', 'Ambassador of the Galactic Federation');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (50, 'The Rani', 'Time Lord renegade scientist');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (51, 'Autons', 'Living plastic creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (52, 'The Great Vampire', 'Ancient and powerful vampire-like being');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (53, 'The Nimon', 'Horned, bull-like aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (54, 'The Mara', 'Manifestation of nightmares and fear');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (55, 'The Rutans', 'Shapeshifting alien race at war with the Sontarans');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (56, 'The Terileptils', 'Reptilian humanoids with advanced technology');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (57, 'The Tractators', 'Insectoid creatures that manipulate gravity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (58, 'The Vervoids', 'Plant-based creatures created for genetic experiments');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (59, 'The Zygons', 'Shape-shifting aliens with a desire for conquest');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (60, 'The Fisher King', 'Powerful alien warlord');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (61, 'The Veil', 'Entity from a pocket universe');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (62, 'The Sandmen', 'Creatures made of sleep dust');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (63, 'The Monks', 'Aliens seeking to conquer Earth through manipulation');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (64, 'The Landlord', 'Entity that feeds on human memories');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (65, 'The Eaters of Light', 'Interdimensional creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (66, 'The Emoji-Bots', 'Robotic creatures with emotion-based faces');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (67, 'The Boneless', '2D beings that absorb humans');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (68, 'The Veil', 'Entity that stalks its prey');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (69, 'The Time Beetle', 'Parasitic creature that alters timelines');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (70, 'The Flood', 'Intelligent water-based creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (71, 'The Midnight Entity', 'Entity that possesses passengers on a spacecraft');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (72, 'The Trickster', 'Temporal manipulator');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (73, 'The Wire', 'Electromagnetic entity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (74, 'The Gelth', 'Gaseous alien race');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (75, 'The Reapers', 'Temporal vortices that devour time-altered areas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (76, 'The Isolus', 'Lonely child-like beings');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (77, 'The Hoix', 'Dog-like creatures from the Void');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (78, 'The Racnoss', 'Giant spider-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", Description) VALUES (79, 'The Judoon', 'Rhinoceros-headed intergalactic police force');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (1, 'The Autons', 'Murderous mannequins');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (2, 'Lady Cassandra', 'The last living human being');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (3, 'The Gelth', 'An alien species comprised of gas');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (4, 'The Slitheen', 'A baby-faced alien family');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (5, 'Daleks', 'Armoured aliens');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (6, 'Jagrafess', 'A hideous, giant slug-like creature');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (7, 'Reapers', 'Winged reptile-like creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (8, 'The empty child', 'A by-product of a dead four-year-old child');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (9, 'The Sycorax', 'An alien race wearing bone-like masks');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (10, 'Face of Boe', 'A gigantic humanoid head');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (11, 'Sisters of Plenitude', 'A humanoid feline race, also known as "Catkind"');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (12, 'Werewolf', 'A werewolf moster');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (13, 'Krillitanes', 'Carnivorous, winged bat-like creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (14, 'Clockwork Droids', 'Repair droids wearing scary masks');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (15, 'Cybermen', 'Cyborg race');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (16, 'The Wire', 'An alien lifeform of pure energy, taking human female form');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (17, 'The Ood', 'Aliens with tentacled faces carrying translation spheres');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (18, 'The Beast', 'Gigantic monster claiming to be Satan');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (19, 'The Abzorbaloff', 'Obese alien which absorbs victims through touch');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (20, 'Isolus', 'Alien resembling a small white flower, which will do anything not to be alone');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (21, 'Roboforms', 'Robots disguised as Santas');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (22, 'The empress of the Racnoss', 'The empress of a half-human, half arachnid race called the Racnoss');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (23, 'The Judoon', 'Galactic stormtroopers resembling rhinoceroses');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (24, 'Pyrovile', 'Volcano-dwelling creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (25, 'Adipose', 'Small, white, marshmallow-like creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (26, 'Vashta Nerada', 'Shadow-dwelling creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (27, 'Sontarans', 'Cloned warriors from the planet Sontar');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (28, 'The Family of Blood', 'Shapeshifting aliens');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (29, 'Weeping Angels', 'Quantum-locked angelic beings');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (30, 'The Silence', 'Aliens with the ability to erase memory');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (31, 'The Great Intelligence', 'Sentient disembodied entity');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (32, 'Ice Warriors', 'Martian reptilian warriors');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (33, 'Zygons', 'Shape-shifting aliens from Zygor');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (34, 'The Master', 'Time Lord nemesis of the Doctor');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (35, 'Axons', 'Aliens with a deceptive appearance');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (36, 'Krynoids', 'Plant-like creatures with destructive tendencies');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (37, 'Mara', 'Manifestation of evil dreams');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (38, 'Mandrels', 'Primate-like creatures with sharp teeth');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (39, 'Omega', 'Ancient Time Lord and creator of Time Lord technology');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (40, 'Sea Devils', 'Marine cousins of the Silurians');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (41, 'Silurians', 'Reptilian race that ruled the Earth millions of years ago');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (42, 'The Celestial Toymaker', 'Powerful being who creates deadly games');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (43, 'The Black Guardian', 'Manifestation of chaos and darkness');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (44, 'The White Guardian', 'Manifestation of order and light');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (45, 'Krotons', 'Cyborg crystalline entities');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (46, 'Wirrn', 'Giant insectoid creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (47, 'Yeti', 'Robotic Yeti controlled by the Great Intelligence');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (48, 'The Macra', 'Giant crab-like creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (49, 'Alpha Centauri', 'Ambassador of the Galactic Federation');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (50, 'The Rani', 'Time Lord renegade scientist');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (51, 'Autons', 'Living plastic creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (52, 'The Great Vampire', 'Ancient and powerful vampire-like being');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (53, 'The Nimon', 'Horned, bull-like aliens');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (54, 'The Mara', 'Manifestation of nightmares and fear');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (55, 'The Rutans', 'Shapeshifting alien race at war with the Sontarans');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (56, 'The Terileptils', 'Reptilian humanoids with advanced technology');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (57, 'The Tractators', 'Insectoid creatures that manipulate gravity');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (58, 'The Vervoids', 'Plant-based creatures created for genetic experiments');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (59, 'The Zygons', 'Shape-shifting aliens with a desire for conquest');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (60, 'The Fisher King', 'Powerful alien warlord');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (61, 'The Veil', 'Entity from a pocket universe');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (62, 'The Sandmen', 'Creatures made of sleep dust');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (63, 'The Monks', 'Aliens seeking to conquer Earth through manipulation');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (64, 'The Landlord', 'Entity that feeds on human memories');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (65, 'The Eaters of Light', 'Interdimensional creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (66, 'The Emoji-Bots', 'Robotic creatures with emotion-based faces');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (67, 'The Boneless', '2D beings that absorb humans');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (68, 'The Veil', 'Entity that stalks its prey');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (69, 'The Time Beetle', 'Parasitic creature that alters timelines');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (70, 'The Flood', 'Intelligent water-based creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (71, 'The Midnight Entity', 'Entity that possesses passengers on a spacecraft');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (72, 'The Trickster', 'Temporal manipulator');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (73, 'The Wire', 'Electromagnetic entity');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (74, 'The Gelth', 'Gaseous alien race');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (75, 'The Reapers', 'Temporal vortices that devour time-altered areas');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (76, 'The Isolus', 'Lonely child-like beings');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (77, 'The Hoix', 'Dog-like creatures from the Void');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (78, 'The Racnoss', 'Giant spider-like creatures');
+INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (79, 'The Judoon', 'Rhinoceros-headed intergalactic police force');
 
 -- add the episodes
 INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
@@ -383,176 +383,176 @@ VALUES (59, 4, NULL, 'Christmas special', 'The End of Time (Part 1)', DATE '0033
 INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
 VALUES (60, 4, NULL, 'Christmas special', 'The End of Time (Part 2)', DATE '0033-11-11', 18, 3, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (61, 5, 1, 'Normal episode', 'The Eleventh Hour', '2010-04-03', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (61, 5, 1, 'Normal episode', 'The Eleventh Hour', DATE '2010-04-03', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (62, 5, 2, 'Normal episode', 'The Beast Below', '2010-04-10', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (62, 5, 2, 'Normal episode', 'The Beast Below', DATE '2010-04-10', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (63, 5, 3, 'Normal episode', 'Victory of the Daleks', '2010-04-17', 8, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (63, 5, 3, 'Normal episode', 'Victory of the Daleks', DATE '2010-04-17', 8, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (64, 5, 4, 'Normal episode', 'The Time of Angels (Part 1)', '2010-04-24', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (64, 5, 4, 'Normal episode', 'The Time of Angels (Part 1)', DATE '2010-04-24', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (65, 5, 5, 'Normal episode', 'Flesh and Stone (Part 2)', '2010-05-01', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (65, 5, 5, 'Normal episode', 'Flesh and Stone (Part 2)', DATE '2010-05-01', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (66, 5, 6, 'Normal episode', 'The Vampires of Venice', '2010-05-08', 23, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (66, 5, 6, 'Normal episode', 'The Vampires of Venice', DATE '2010-05-08', 23, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (67, 5, 7, 'Normal episode', 'Amy''s Choice', '2010-05-15', 19, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (67, 5, 7, 'Normal episode', 'Amy''s Choice', DATE '2010-05-15', 19, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (68, 5, 8, 'Normal episode', 'The Hungry Earth (Part 1)', '2010-05-22', 1, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (68, 5, 8, 'Normal episode', 'The Hungry Earth (Part 1)', DATE '2010-05-22', 1, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (69, 5, 9, 'Normal episode', 'Cold Blood (Part 2)', '2010-05-29', 1, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (69, 5, 9, 'Normal episode', 'Cold Blood (Part 2)', DATE '2010-05-29', 1, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (70, 5, 10, 'Normal episode', 'Vincent and the Doctor', '2010-06-05', 16, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (70, 5, 10, 'Normal episode', 'Vincent and the Doctor', DATE '2010-06-05', 16, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (71, 5, 11, 'Normal episode', 'The Lodger', '2010-06-12', 2, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (71, 5, 11, 'Normal episode', 'The Lodger', DATE '2010-06-12', 2, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (72, 5, 12, 'Normal episode', 'The Pandorica Opens (Part 1)', '2010-06-19', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (72, 5, 12, 'Normal episode', 'The Pandorica Opens (Part 1)', DATE '2010-06-19', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (73, 5, 13, 'Normal episode', 'The Big Bang (Part 2)', '2010-06-26', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (73, 5, 13, 'Normal episode', 'The Big Bang (Part 2)', DATE '2010-06-26', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (74, 6, NULL, 'Christmas special', 'A Christmas Carol', '2010-12-25', 22, 5, 'Michael Gambon guest stars');
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (74, 6, NULL, 'Christmas special', 'A Christmas Carol', DATE '2010-12-25', 22, 5, 'Michael Gambon guest stars');
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (75, 6, 1, 'Normal episode', 'The Impossible Astronaut (Part 1)', '2011-04-23', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (75, 6, 1, 'Normal episode', 'The Impossible Astronaut (Part 1)', DATE '2011-04-23', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (76, 6, 2, 'Normal episode', 'Day of the Moon (Part 2)', '2011-04-30', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (76, 6, 2, 'Normal episode', 'Day of the Moon (Part 2)', DATE '2011-04-30', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (77, 6, 3, 'Normal episode', 'The Curse of the Black Spot', '2011-05-07', 21, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (77, 6, 3, 'Normal episode', 'The Curse of the Black Spot', DATE '2011-05-07', 21, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (78, 6, 4, 'Normal episode', 'The Doctor''s Wife', '2011-05-14', 12, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (78, 6, 4, 'Normal episode', 'The Doctor''s Wife', DATE '2011-05-14', 12, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (79, 6, 5, 'Normal episode', 'The Rebel Flesh (Part 1)', '2011-05-21', 10, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (79, 6, 5, 'Normal episode', 'The Rebel Flesh (Part 1)', DATE '2011-05-21', 10, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes")
-VALUES (80, 6, 6, 'Normal episode', 'The Almost People (Part 2)', '2011-05-28', 10, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
+VALUES (80, 6, 6, 'Normal episode', 'The Almost People (Part 2)', DATE '2011-05-28', 10, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (81, 6, 7, 'Normal episode', 'A Good Man Goes to War', '2013-06-09', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (81, 6, 7, 'Normal episode', 'A Good Man Goes to War', DATE '2013-06-09', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (82, 6, 8, 'Normal episode', 'Let''s Kill Hitler', '2013-08-27', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (82, 6, 8, 'Normal episode', 'Let''s Kill Hitler', DATE '2013-08-27', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (83, 6, 9, 'Normal episode', 'Night Terrors', '2013-09-03', 8, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (83, 6, 9, 'Normal episode', 'Night Terrors', DATE '2013-09-03', 8, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (84, 6, 10, 'Normal episode', 'The Girl Who Waited', '2013-09-10', 24, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (84, 6, 10, 'Normal episode', 'The Girl Who Waited', DATE '2013-09-10', 24, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (85, 6, 11, 'Normal episode', 'The God Complex', '2013-09-17', 23, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (85, 6, 11, 'Normal episode', 'The God Complex', DATE '2013-09-17', 23, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (86, 6, 12, 'Normal episode', 'Closing Time', '2013-09-24', 2, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (86, 6, 12, 'Normal episode', 'Closing Time', DATE '2013-09-24', 2, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (87, 6, 13, 'Normal episode', 'The Wedding of River Song', '2013-10-01', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (87, 6, 13, 'Normal episode', 'The Wedding of River Song', DATE '2013-10-01', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (88, 7, NULL, 'Christmas special', 'The Doctor, the Widow and the Wardrobe', '2013-12-25', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (88, 7, NULL, 'Christmas special', 'The Doctor, the Widow and the Wardrobe', DATE '2013-12-25', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (89, 7, 1, 'Normal episode', 'Asylum of the Daleks', '2014-09-01', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (89, 7, 1, 'Normal episode', 'Asylum of the Daleks', DATE '2014-09-01', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (90, 7, 2, 'Normal episode', 'Dinosaurs on a Spaceship', '2014-09-08', 1, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (90, 7, 2, 'Normal episode', 'Dinosaurs on a Spaceship', DATE '2014-09-08', 1, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (91, 7, 3, 'Normal episode', 'A Town Called Mercy', '2014-09-15', 23, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (91, 7, 3, 'Normal episode', 'A Town Called Mercy', DATE '2014-09-15', 23, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (92, 7, 4, 'Normal episode', 'The Power of Three', '2014-09-22', 1, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (92, 7, 4, 'Normal episode', 'The Power of Three', DATE '2014-09-22', 1, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (93, 7, 5, 'Normal episode', 'The Angels Take Manhattan', '2014-09-29', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (93, 7, 5, 'Normal episode', 'The Angels Take Manhattan', DATE '2014-09-29', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (94, 7, NULL, 'Christmas special', 'The Snowmen', '2014-12-25', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (94, 7, NULL, 'Christmas special', 'The Snowmen', DATE '2014-12-25', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (95, 7, 6, 'Normal episode', 'The Bells of Saint John', '2015-03-30', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (95, 7, 6, 'Normal episode', 'The Bells of Saint John', DATE '2015-03-30', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (96, 7, 7, 'Normal episode', 'The Rings of Akhaten', '2015-04-06', 11, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (96, 7, 7, 'Normal episode', 'The Rings of Akhaten', DATE '2015-04-06', 11, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (97, 7, 8, 'Normal episode', 'Cold War', '2015-04-13', 8, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (97, 7, 8, 'Normal episode', 'Cold War', DATE '2015-04-13', 8, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (98, 7, 9, 'Normal episode', 'Hide', '2015-04-20', 11, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (98, 7, 9, 'Normal episode', 'Hide', DATE '2015-04-20', 11, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (99, 7, 10, 'Normal episode', 'Journey to the Centre of the TARDIS', '2015-04-27', 21, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (99, 7, 10, 'Normal episode', 'Journey to the Centre of the TARDIS', DATE '2015-04-27', 21, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (100, 7, 11, 'Normal episode', 'The Crimson Horror', '2015-05-04', 8, 5, 'Diana Rigg plays the main baddie in this episode');
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (100, 7, 11, 'Normal episode', 'The Crimson Horror', DATE '2015-05-04', 8, 5, 'Diana Rigg plays the main baddie in this episode');
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (101, 7, 12, 'Normal episode', 'Nightmare in Silver', '2023-06-11', 12, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (101, 7, 12, 'Normal episode', 'Nightmare in Silver', DATE '2023-06-11', 12, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (102, 7, 13, 'Normal episode', 'The Name of the Doctor', '2023-06-29', 22, 5, 'Features cameo appearances from all of the previous doctors');
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (102, 7, 13, 'Normal episode', 'The Name of the Doctor', DATE '2023-06-29', 22, 5, 'Features cameo appearances from all of the previous doctors');
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (103, 8, NULL, '50th anniversary special', 'The Day of the Doctor', '2023-12-01', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (103, 8, NULL, '50th anniversary special', 'The Day of the Doctor', DATE '2023-12-01', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (104, 8, NULL, 'Christmas special', 'The Time of the Doctor', '2023-12-25', 22, 5, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (104, 8, NULL, 'Christmas special', 'The Time of the Doctor', DATE '2023-12-25', 22, 5, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (105, 8, 1, 'Normal episode', 'Deep Breath', '2024-08-23', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (105, 8, 1, 'Normal episode', 'Deep Breath', DATE '2024-08-23', 22, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (106, 8, 2, 'Normal episode', 'Into the Dalek', '2024-08-30', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (106, 8, 2, 'Normal episode', 'Into the Dalek', DATE '2024-08-30', 22, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (107, 8, 3, 'Normal episode', 'Robot of Sherwood', '2024-09-06', 8, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (107, 8, 3, 'Normal episode', 'Robot of Sherwood', DATE '2024-09-06', 8, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (108, 8, 4, 'Normal episode', 'Listen', '2024-09-13', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (108, 8, 4, 'Normal episode', 'Listen', DATE '2024-09-13', 22, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (109, 8, 5, 'Normal episode', 'Time Heist', '2024-09-20', 21, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (109, 8, 5, 'Normal episode', 'Time Heist', DATE '2024-09-20', 21, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (110, 8, 6, 'Normal episode', 'The Caretaker', '2024-09-27', 2, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (110, 8, 6, 'Normal episode', 'The Caretaker', DATE '2024-09-27', 2, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (111, 8, 7, 'Normal episode', 'Kill the Moon', '2024-10-04', 14, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (111, 8, 7, 'Normal episode', 'Kill the Moon', DATE '2024-10-04', 14, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (112, 8, 8, 'Normal episode', 'Mummy on the Orient Express', '2024-10-11', 6, 8, 'John Sessions was the voice actor for this episode');
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (112, 8, 8, 'Normal episode', 'Mummy on the Orient Express', DATE '2024-10-11', 6, 8, 'John Sessions was the voice actor for this episode');
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (113, 8, 9, 'Normal episode', 'Flatline', '2024-10-18', 6, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (113, 8, 9, 'Normal episode', 'Flatline', DATE '2024-10-18', 6, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (114, 8, 10, 'Normal episode', 'In the Forest of the Night', '2024-10-25', 25, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (114, 8, 10, 'Normal episode', 'In the Forest of the Night', DATE '2024-10-25', 25, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (115, 8, 11, 'Normal episode', 'Dark Water (Part 1)', '2024-11-01', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (115, 8, 11, 'Normal episode', 'Dark Water (Part 1)', DATE '2024-11-01', 22, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (116, 8, 12, 'Normal episode', 'Death in Heaven (Part 2)', '2024-11-08', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (116, 8, 12, 'Normal episode', 'Death in Heaven (Part 2)', DATE '2024-11-08', 22, 8, NULL);
 
-INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber, EpisodeType, Title, EpisodeDate, AuthorId, DoctorId, Notes") 
-VALUES (117, 9, NULL, 'Christmas special', 'Last Christmas', '2025-12-25', 22, 8, NULL);
+INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes") 
+VALUES (117, 9, NULL, 'Christmas special', 'Last Christmas', DATE '2025-12-25', 22, 8, NULL);
 
 INSERT INTO "tblEpisodeCompanion" ("EpisodeCompanionId", "EpisodeId", "CompanionId") VALUES (1, 1, 4);
 INSERT INTO "tblEpisodeCompanion" ("EpisodeCompanionId", "EpisodeId", "CompanionId") VALUES (2, 2, 4);
