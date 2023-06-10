@@ -3,7 +3,7 @@ body{
     color: aqua;
 }
 
-.doctors {
+.doctorsList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
