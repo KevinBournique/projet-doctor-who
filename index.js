@@ -21,6 +21,6 @@ app.use(router);
 /**
  * Je démarre mon serveur
  */
-app.listen(8584, () => {
-    console.log('Listening on port http://localhost:8584');
-});
+app.listen(process.env.PORT, () =>
+    console.log(`Listening on ${process.env.BASE_URL}:${process.env.PORT}`)
+);
