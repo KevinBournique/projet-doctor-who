@@ -1,16 +1,6 @@
-.body_homePage{
-    background: center/cover no-repeat url(/img/background/galifrey.jpg);
+body{
+    margin-top: 500px;
     color: aqua;
-}
-
-.body_header{
-        background: center/cover no-repeat url(/img/background/galifrey.jpg);
-        color: aqua;
-}
-
-.head_logoDoctor {
-    max-width : 200px;
-    height : auto;
 }
 
 .doctors {
