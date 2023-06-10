@@ -9,13 +9,6 @@ CREATE TABLE "tblAuthor"(
 	"AuthorName" VARCHAR(50)
 );
 
--- create table of companions of Dr Who
-CREATE TABLE "tblCompanion"(
-	"CompanionId" SERIAL PRIMARY KEY,
-	"CompanionName" VARCHAR(50) NOT NULL,
-	"WhoPlayed" VARCHAR(50)
-);
-
 -- create table of Dr Who's
 CREATE TABLE "tblDoctor"(
 	"DoctorId" SERIAL PRIMARY KEY,
@@ -25,6 +18,14 @@ CREATE TABLE "tblDoctor"(
 	"FirstEpisodeDate" DATE,
 	"LastEpisodeDate" DATE
 );
+
+-- create table of companions of Dr Who
+CREATE TABLE "tblCompanion"(
+	"CompanionId" SERIAL PRIMARY KEY,
+	"CompanionName" VARCHAR(50) NOT NULL,
+	"WhoPlayed" VARCHAR(50)
+);
+
 
 -- create table of enemies of the Doctor
 CREATE TABLE "tblEnemy"(
@@ -729,194 +730,194 @@ INSERT INTO "tblEpisodeCompanion" ("EpisodeCompanionId", "EpisodeId", "Companion
 INSERT INTO "tblEpisodeCompanion" ("EpisodeCompanionId", "EpisodeId", "CompanionId") VALUES (173, 102, 1);
 
 -- Activer l'insertion manuelle d'identifiants
-ALTER TABLE "tblEpisodeEnemy" ENABLE REPLICA IDENTITY;
+ALTER TABLE "tblEpisodeEnemy" ENABLE TRIGGER ALL;
 
 -- Insérer les enregistrements dans tblEpisodeEnemy
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (1, 15, 10);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (2, 26, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (3, 27, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (4, 72, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (5, 73, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (6, 116, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (7, 54, 42);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (8, 55, 42);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (9, 31, 10);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (10, 112, 77);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (11, 91, 62);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (12, 101, 71);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (13, 29, 24);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (14, 61, 44);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (15, 22, 18);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (16, 23, 18);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (17, 28, 22);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (18, 42, 33);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (19, 40, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (20, 41, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (21, 59, 17);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (22, 86, 51);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (23, 104, 51);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (24, 87, 51);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (25, 75, 56);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (26, 103, 72);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (27, 15, 11);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (28, 15, 2);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (29, 26, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (30, 27, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (31, 72, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (32, 73, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (33, 116, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (34, 54, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (35, 55, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (36, 31, 26);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (37, 112, 76);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (38, 91, 61);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (39, 101, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (40, 29, 23);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (41, 61, 43);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (42, 22, 17);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (43, 23, 17);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (44, 28, 21);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (45, 42, 34);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (46, 40, 31);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (47, 41, 31);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (48, 59, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (49, 86, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (50, 104, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (51, 87, 56);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (52, 75, 51);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (53, 103, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (54, 43, 35);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (55, 96, 66);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (56, 113, 78);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (57, 18, 14);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (58, 105, 14);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (59, 19, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (60, 20, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (61, 56, 15);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (62, 6, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (63, 12, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (64, 13, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (65, 32, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (66, 33, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (67, 63, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (68, 89, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (69, 106, 5);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (70, 67, 47);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (71, 39, 30);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (72, 79, 54);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (73, 80, 54);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (74, 84, 58);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (75, 81, 55);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (76, 78, 53);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (77, 25, 20);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (78, 7, 6);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (79, 117, 79);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (80, 70, 49);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (81, 17, 13);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (82, 2, 2);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (83, 34, 27);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (84, 109, 74);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (85, 83, 57);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (86, 44, 36);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (87, 8, 7);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (88, 66, 46);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (89, 36, 28);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (90, 37, 28);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (91, 68, 48);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (92, 69, 48);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (93, 97, 67);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (94, 110, 75);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (95, 74, 50);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (96, 62, 45);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (97, 90, 60);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (98, 24, 19);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (99, 1, 1);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (100, 30, 25);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (101, 9, 8);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (102, 10, 8);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (103, 3, 3);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (104, 95, 64);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (105, 102, 64);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (106, 48, 38);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (107, 60, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (108, 115, 32);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (109, 85, 59);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (110, 45, 17);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (111, 92, 63);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (112, 107, 73);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (113, 76, 51);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (114, 77, 52);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (115, 4, 4);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (116, 5, 4);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (117, 11, 4);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (118, 94, 65);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (119, 46, 37);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (120, 47, 37);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (121, 14, 9);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (122, 82, 56);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (123, 53, 41);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (124, 21, 16);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (125, 99, 68);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (126, 50, 40);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (127, 51, 40);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (128, 38, 29);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (129, 64, 29);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (130, 65, 29);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (131, 93, 29);
-INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId, EpisodeId, EnemyId") VALUES (132, 16, 12);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (1, 15, 10);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (2, 26, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (3, 27, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (4, 72, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (5, 73, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (6, 116, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (7, 54, 42);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (8, 55, 42);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (9, 31, 10);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (10, 112, 77);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (11, 91, 62);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (12, 101, 71);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (13, 29, 24);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (14, 61, 44);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (15, 22, 18);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (16, 23, 18);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (17, 28, 22);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (18, 42, 33);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (19, 40, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (20, 41, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (21, 59, 17);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (22, 86, 51);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (23, 104, 51);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (24, 87, 51);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (25, 75, 56);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (26, 103, 72);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (27, 15, 11);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (28, 15, 2);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (29, 26, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (30, 27, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (31, 72, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (32, 73, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (33, 116, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (34, 54, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (35, 55, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (36, 31, 26);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (37, 112, 76);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (38, 91, 61);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (39, 101, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (40, 29, 23);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (41, 61, 43);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (42, 22, 17);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (43, 23, 17);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (44, 28, 21);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (45, 42, 34);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (46, 40, 31);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (47, 41, 31);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (48, 59, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (49, 86, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (50, 104, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (51, 87, 56);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (52, 75, 51);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (53, 103, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (54, 43, 35);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (55, 96, 66);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (56, 113, 78);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (57, 18, 14);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (58, 105, 14);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (59, 19, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (60, 20, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (61, 56, 15);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (62, 6, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (63, 12, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (64, 13, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (65, 32, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (66, 33, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (67, 63, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (68, 89, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (69, 106, 5);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (70, 67, 47);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (71, 39, 30);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (72, 79, 54);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (73, 80, 54);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (74, 84, 58);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (75, 81, 55);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (76, 78, 53);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (77, 25, 20);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (78, 7, 6);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (79, 117, 79);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (80, 70, 49);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (81, 17, 13);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (82, 2, 2);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (83, 34, 27);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (84, 109, 74);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (85, 83, 57);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (86, 44, 36);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (87, 8, 7);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (88, 66, 46);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (89, 36, 28);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (90, 37, 28);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (91, 68, 48);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (92, 69, 48);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (93, 97, 67);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (94, 110, 75);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (95, 74, 50);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (96, 62, 45);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (97, 90, 60);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (98, 24, 19);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (99, 1, 1);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (100, 30, 25);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (101, 9, 8);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (102, 10, 8);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (103, 3, 3);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (104, 95, 64);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (105, 102, 64);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (106, 48, 38);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (107, 60, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (108, 115, 32);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (109, 85, 59);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (110, 45, 17);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (111, 92, 63);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (112, 107, 73);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (113, 76, 51);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (114, 77, 52);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (115, 4, 4);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (116, 5, 4);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (117, 11, 4);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (118, 94, 65);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (119, 46, 37);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (120, 47, 37);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (121, 14, 9);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (122, 82, 56);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (123, 53, 41);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (124, 21, 16);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (125, 99, 68);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (126, 50, 40);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (127, 51, 40);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (128, 38, 29);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (129, 64, 29);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (130, 65, 29);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (131, 93, 29);
+INSERT INTO "tblEpisodeEnemy" ("EpisodeEnemyId", "EpisodeId", "EnemyId") VALUES (132, 16, 12);
 
 -- create relationships between tables
-ALTER TABLE "tblEpisode" ADD CONSTRAINT "FK_tblEpisode_tblAuthor" FOREIGN KEY (AuthorId)
-REFERENCES "tblAuthor" (AuthorId) ON UPDATE CASCADE ON DELETE CASCADE;
+-- Ajouter une contrainte de clé étrangère pour AuthorId dans tblEpisode
+ALTER TABLE "tblEpisode"
+ADD CONSTRAINT "FK_tblEpisode_tblAuthor"
+FOREIGN KEY ("AuthorId")
+REFERENCES "tblAuthor" ("AuthorId")
+ON UPDATE CASCADE
+ON DELETE CASCADE;
 
-ALTER TABLE "tblEpisode" ADD CONSTRAINT "FK_tblEpisode_tblDoctor" FOREIGN KEY (DoctorId)
-REFERENCES "tblDoctor" (DoctorId) ON UPDATE CASCADE ON DELETE CASCADE;
+-- Ajouter une contrainte de clé étrangère pour DoctorId dans tblEpisode
+ALTER TABLE "tblEpisode"
+ADD CONSTRAINT "FK_tblEpisode_tblDoctor"
+FOREIGN KEY ("DoctorId")
+REFERENCES "tblDoctor" ("DoctorId")
+ON UPDATE CASCADE
+ON DELETE CASCADE;
 
-ALTER TABLE "tblEpisodeCompanion" ADD CONSTRAINT "FK_tblEpisodeCompanion_tblCompanion" FOREIGN KEY (CompanionId)
-REFERENCES "tblCompanion" (CompanionId) ON UPDATE CASCADE ON DELETE CASCADE;
+-- Ajouter une contrainte de clé étrangère pour CompanionId dans tblEpisodeCompanion
+ALTER TABLE "tblEpisodeCompanion"
+ADD CONSTRAINT "FK_tblEpisodeCompanion_tblCompanion"
+FOREIGN KEY ("CompanionId")
+REFERENCES "tblCompanion" ("CompanionId")
+ON UPDATE CASCADE
+ON DELETE CASCADE;
 
-ALTER TABLE "tblEpisodeEnemy" ADD CONSTRAINT "FK_tbEpisodeEnemy_tblEnemy" FOREIGN KEY (EnemyId)
-REFERENCES "tblEnemy" (EnemyId) ON UPDATE CASCADE ON DELETE CASCADE;
+-- Ajouter une contrainte de clé étrangère pour EnemyId dans tblEpisodeEnemy
+ALTER TABLE "tblEpisodeEnemy"
+ADD CONSTRAINT "FK_tbEpisodeEnemy_tblEnemy"
+FOREIGN KEY ("EnemyId")
+REFERENCES "tblEnemy" ("EnemyId")
+ON UPDATE CASCADE
+ON DELETE CASCADE;
+
 
 -- create a function to list companions
-CREATE OR REPLACE FUNCTION fnCompanions(
-	EpisodeId INT
-)
-RETURNS VARCHAR(100) AS $$
-DECLARE
-	c VARCHAR(100) := '';
-BEGIN
-	SELECT
-		c := c || CASE WHEN length(c) > 0 THEN ', ' ELSE '' END || c.CompanionName
-	FROM
-		tblEpisodeCompanion AS ec
-		INNER JOIN tblCompanion AS c ON ec.CompanionId = c.CompanionId
-	WHERE
-		ec.EpisodeId = EpisodeId;
+CREATE FUNCTION fnCompanions(EpisodeId int)
+RETURNS varchar(100)
+AS $$
+DECLARE 
+    c varchar(100) := '';
 
-	RETURN c;
+BEGIN
+    SELECT string_agg(c.CompanionName, ', ') INTO c
+    FROM tblEpisodeCompanion AS ec
+    INNER JOIN tblCompanion AS c ON ec.CompanionId = c.CompanionId
+    WHERE ec.EpisodeId = EpisodeId;
+
+    RETURN c;
 END;
 $$ LANGUAGE plpgsql;
 
--- create a function to list enemies
-CREATE OR REPLACE FUNCTION fnEnemies(
-	EpisodeId INT
-)
-RETURNS VARCHAR(100) AS $$
-DECLARE
-	c VARCHAR(100) := '';
-BEGIN
-	SELECT
-		c := c || CASE WHEN length(c) > 0 THEN ', ' ELSE '' END || c.EnemyName
-	FROM
-		tblEpisodeEnemy AS ec
-		INNER JOIN tblEnemy AS c ON ec.EnemyId = c.EnemyId
-	WHERE
-		ec.EpisodeId = EpisodeId;
 
-	RETURN c;
-END;
-$$ LANGUAGE plpgsql;
 
 -- create a procedure to list episodes
 CREATE OR REPLACE PROCEDURE spEpisodes()
