@@ -4,8 +4,8 @@
     <section class="doctorsList">
         <% doctors.forEach(doctor => { %>
             <article>
-                    <a href="/doctor/details/<%= doctor.doctor_numero %>">
-                    <img src="/img/doctors/<%= doctor.doctor_numero %>.jpg" alt="<%= doctor.doctor_name %>">
+                    <a href="/doctor/details/<%= doctor.doctoNumero %>">
+                    <img src="/img/doctors/<%= doctor.doctoNumero %>.jpg" alt="<%= doctor.doctorName %>">
                     </a> 
                 </article>
         <%})%>
