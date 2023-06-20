@@ -6,7 +6,7 @@ router.get('/', tardisController.arrivalPage);
 router.get('/homePage', tardisController.homePage);
 router.get('/doctor/list', tardisController.getAllDoctors);
 router.get('/doctor/companion', tardisController.getAllCompanions);
-router.get('/doctor/details/:numero', tardisController.getOneDoctor);
+router.get('/doctor/details/:id', tardisController.getOneDoctor);
 
 
 

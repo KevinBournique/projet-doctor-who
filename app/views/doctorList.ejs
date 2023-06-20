@@ -2,13 +2,20 @@
 
 <main>
     <section class="doctorsList">
+
+        <% if (locals.doctors && locals.doctors.length) { %>
+
         <% doctors.forEach(doctor => { %>
             <article>
-                    <a href="/doctor/details/<%= doctor.doctoNumero %>">
-                    <img src="/img/doctors/<%= doctor.doctoNumero %>.jpg" alt="<%= doctor.doctorName %>">
+                    <a href="/doctor/details/<%= doctor.DoctorId %>">
+                    <img src="/img/doctors/<%= doctor.DoctorId %>.jpg" alt="<%= doctor.doctorName %>">
                     </a> 
                 </article>
         <%})%>
+
+        <% }  else  { %>
+            <p>Pas de Doctor à afficher</p>
+        <% }   %>
     </section>
 </main>
 

@@ -39,13 +39,14 @@ const tardisController = {
     // Page details d'un doctor
     async getOneDoctor (req, res) {
         try{
-            const { doctorNumero } = req.params;
+            const { id } = req.params
 
-            const doctor = await Doctor.findOne({ where: 
-                { DoctorNumber: doctorNumber } });
+            const doctor = await Doctor.findByPk(id, 
+                { where: 
+                { DoctorId: id } });
 
             if (doctor) {
-                res.render('doctorDetails')
+                res.render('doctorDetails', { doctor });
                     error: 'Doctor introuvable !'
             }
             

@@ -6,7 +6,9 @@ CREATE DATABASE "doctorwho";
 -- create table of authors of episodes
 CREATE TABLE "tblAuthor"(
 	"AuthorId" SERIAL PRIMARY KEY,
-	"AuthorName" VARCHAR(50)
+	"AuthorName" VARCHAR(50),
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- create table of Dr Who's
@@ -16,14 +18,18 @@ CREATE TABLE "tblDoctor"(
 	"DoctorName" VARCHAR(50),
 	"BirthDate" DATE,
 	"FirstEpisodeDate" DATE,
-	"LastEpisodeDate" DATE
+	"LastEpisodeDate" DATE,
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- create table of companions of Dr Who
 CREATE TABLE "tblCompanion"(
 	"CompanionId" SERIAL PRIMARY KEY,
 	"CompanionName" VARCHAR(50) NOT NULL,
-	"WhoPlayed" VARCHAR(50)
+	"WhoPlayed" VARCHAR(50),
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 
@@ -31,7 +37,9 @@ CREATE TABLE "tblCompanion"(
 CREATE TABLE "tblEnemy"(
 	"EnemyId" SERIAL PRIMARY KEY,
 	"EnemyName" VARCHAR(100),
-	"Description" VARCHAR(255)
+	"Description" VARCHAR(255),
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- create table of the episodes
@@ -44,21 +52,27 @@ CREATE TABLE "tblEpisode"(
 	"EpisodeDate" DATE,
 	"AuthorId" INT,
 	"DoctorId" INT,
-	"Notes" VARCHAR(255)
+	"Notes" VARCHAR(255),
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- create table of which companions were in which episodes
 CREATE TABLE "tblEpisodeCompanion"(
 	"EpisodeCompanionId" SERIAL PRIMARY KEY,
 	"EpisodeId" INT,
-	"CompanionId" INT
+	"CompanionId" INT,
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- create table of which enemies were in which episodes
 CREATE TABLE "tblEpisodeEnemy"(
 	"EpisodeEnemyId" SERIAL PRIMARY KEY,
 	"EpisodeId" INT,
-	"EnemyId" INT
+	"EnemyId" INT,
+	"created_at" timestamptz NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  	"updated_at" timestamptz
 );
 
 -- Ajouter les auteurs
