@@ -123,18 +123,18 @@ INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES 
 INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (18, 'Rosita Farisi', 'Velle Tshabalala');
 
 -- Ajouter les docteurs
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (1, 9, 'Christopher Eccleston', '1964-02-16', '2005-03-26', '2005-06-18');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (2, 6, 'Colin Baker', '1943-06-08', '1984-03-22', '1986-12-06');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (3, 10, 'David Tennant', '1971-04-18', '2005-06-18', '2010-01-01');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (4, 3, 'Jon Pertwee', '1919-07-07', '1970-01-03', '1974-06-08');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (5, 11, 'Matt Smith', '1982-10-28', '2010-01-01', '2013-12-25');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (6, 2, 'Patrick Troughton', '1920-03-25', '1966-10-29', '1969-06-21');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (7, 8, 'Paul McGann', '1959-11-14', '1996-05-27', '1996-05-27');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (8, 12, 'Peter Capaldi', '1958-04-14', '2013-12-25', NULL);
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (9, 5, 'Peter Davison', '1951-04-13', '1982-03-26', '1984-03-16');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (10, 7, 'Sylvester McCoy', '1943-08-20', '1987-09-07', '1989-12-06');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (11, 4, 'Tom Baker', '1934-01-20', '1974-12-28', '1981-03-21');
-INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (12, 1, 'William Hartnell', '1908-01-08', '1963-11-23', '1966-10-29');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (1, 1, 'William Hartnell', '1908-01-08', '1963-11-23', '1966-10-29');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (2, 2, 'Patrick Troughton', '1920-03-25', '1966-10-29', '1969-06-21');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (3, 3, 'Jon Pertwee', '1919-07-07', '1970-01-03', '1974-06-08');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (4, 4, 'Tom Baker', '1934-01-20', '1974-12-28', '1981-03-21');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (5, 5, 'Peter Davison', '1951-04-13', '1982-03-26', '1984-03-16');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (6, 6, 'Colin Baker', '1943-06-08', '1984-03-22', '1986-12-06');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (7, 7, 'Sylvester McCoy', '1943-08-20', '1987-09-07', '1989-12-06');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (8, 8, 'Paul McGann', '1959-11-14', '1996-05-27', '1996-05-27');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (9, 9, 'Christopher Eccleston', '1964-02-16', '2005-03-26', '2005-06-18');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (10, 10, 'David Tennant', '1971-04-18', '2005-06-18', '2010-01-01');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (11, 11, 'Matt Smith', '1982-10-28', '2010-01-01', '2013-12-25');
+INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (12, 12, 'Peter Capaldi', '1958-04-14', '2013-12-25', NULL);
 
 -- Ajouter les ennemis
 INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (1, 'The Autons', 'Murderous mannequins');

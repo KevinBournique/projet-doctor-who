@@ -24,18 +24,6 @@ const tardisController = {
         }
     },
 
-    // Page liste des companions
-    async getAllCompanions (req, res){
-        try {
-            const companions = await Companion.findAll();
-
-            res.render('doctorCompanions', { companions });
-        } catch (error) {
-            console.log(error);
-            res.status(500).send('Server Error');
-        }
-    },
-
     // Page details d'un doctor
     async getOneDoctor (req, res) {
         try{
@@ -55,6 +43,38 @@ const tardisController = {
             res.status(500).send('Server Error');
         }
     },
+
+    // Page liste des companions
+    async getAllCompanions (req, res){
+        try {
+            const companions = await Companion.findAll();
+
+            res.render('companionList', { companions });
+        } catch (error) {
+            console.log(error);
+            res.status(500).send('Server Error');
+        }
+    },
+
+        // Page details d'un companion
+        async getOneCompanion (req, res) {
+            try{
+                const { id } = req.params
+    
+                const companion = await Companion.findByPk(id, 
+                    { where: 
+                    { CompanionId: id } });
+    
+                if (companion) {
+                    res.render('companionDetails', { companion });
+                        error: 'Companion introuvable !'
+                }
+                
+            } catch (error) {
+                console.log(error);
+                res.status(500).send('Server Error');
+            }
+        },
 
     // Page liste des enemies
     async getAllEnemies (req, res){

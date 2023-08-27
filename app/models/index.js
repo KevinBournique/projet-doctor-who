@@ -30,7 +30,7 @@ Episode.belongsToMany(Companion, {
 Companion.belongsToMany(Episode, {
     through: "EpisodeCompanion",
     foreignKey: 'CompanionId'
-  });
+});
 
 Episode.belongsToMany(Enemy, {
     through: "EpisodeEnemy",

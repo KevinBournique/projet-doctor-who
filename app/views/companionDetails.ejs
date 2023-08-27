@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+
+
+<main>
+    <section>
+        <h1>Details du Companion</h1>
+                <article>
+
+                    <% if (locals.companion) { %>
+
+                    <img src="/img/companions/<%= companion.CompanionId %>.jpg" alt="<%= companion.CompanionName %>">
+                    
+                </article>
+                <h3>Informations</h3>
+                <ul>
+                    <li>Numéro : <%= companion.CompanionId %></li>
+                    <li>Prénom et nom du companion : <%= companion.CompanionName %></li>
+                    <li>Prénom et nom de l'acteur/l'actrice : <%= companion.WhoPlayed %></li>
+                </ul>
+                <% }  else  { %>
+                    <p>Pas de Companion à afficher</p>
+                <% }   %>
+    </section>
+</main>
+
+
+
+
+<%- include('partials/footer.ejs') %>
