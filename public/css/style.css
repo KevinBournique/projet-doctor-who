@@ -1,12 +1,31 @@
 body{
-    margin-top: 500px;
-    color: aqua;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 250px;
+    background-color: #6d002193;
+    color: #fff;
 }
 
 .doctorsList {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 1em;
     justify-content: center;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    margin-top: 1%;
+    border-top: solid #c5c4c4 4px;
+    padding: 1%;
+}
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5%;
 }
