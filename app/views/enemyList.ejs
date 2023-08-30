@@ -1,0 +1,24 @@
+<%- include('partials/header.ejs') %>
+
+<main>
+    <section class="doctors">
+        <% enemies.forEach(enemy => { %>
+            <article>
+                    <a href="/enemy/<%= enemy.EnemyId %>"><%= enemy.EnemyName %></a>
+                    <img src="#" alt="#">
+                    </a> 
+                </article>
+        <%})%>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>

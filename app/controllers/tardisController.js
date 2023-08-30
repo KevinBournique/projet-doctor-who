@@ -81,12 +81,32 @@ const tardisController = {
         try {
             const enemies = await Enemy.findAll();
 
-            res.render('', { enemies });
+            res.render('enemyList', { enemies });
         } catch (error) {
             console.log(error);
             res.status(500).send('Server Error');
         }
     },
+
+            // Page details d'un companion
+            async getOneEnemy (req, res) {
+                try{
+                    const { id } = req.params
+        
+                    const enemy = await Enemy.findByPk(id, 
+                        { where: 
+                        { EnemyId: id } });
+        
+                    if (enemy) {
+                        res.render('enemyDetails', { enemy });
+                            error: 'Ennemi introuvable !'
+                    }
+                    
+                } catch (error) {
+                    console.log(error);
+                    res.status(500).send('Server Error');
+                }
+            },
 
     // Page liste des épisode
     async getAllEpisodes (req, res){
