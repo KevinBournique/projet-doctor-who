@@ -103,24 +103,61 @@ INSERT INTO "tblAuthor" ("AuthorId", "AuthorName") VALUES (24, 'Tom MacRae');
 INSERT INTO "tblAuthor" ("AuthorId", "AuthorName") VALUES (25, 'Frank Cottrell Boyce');
 
 -- Ajouter les compagnons
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (1, 'River Song', 'Alex Kingston');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (2, 'Rory Williams', 'Arthur Darvill');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (3, 'Wilfred Mott', 'Bernard Cribbins');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (4, 'Rose Tyler', 'Billie Piper');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (5, 'Adam Mitchell', 'Bruno Langley');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (6, 'Donna Noble', 'Catherine Tate');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (7, 'Jackson Lake', 'David Morrissey');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (8, 'Sarah Jane Smith', 'Elisabeth Sladen');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (9, 'Martha Jones', 'Freema Agyeman');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (10, 'Craig Owens', 'James Corden');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (11, 'Clara Oswald', 'Jenna Coleman');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (12, 'Jack Harkness', 'John Barrowman');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (13, 'Amy Pond', 'Karen Gillan');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (14, 'Astrid Peth', 'Kylie Minogue');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (15, 'Adelaide Brooke', 'Lindsay Duncan');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (16, 'Lady Christina de Souza', 'Michelle Ryan');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (17, 'Mickey Smith', 'Noel Clarke');
-INSERT INTO "tblCompanion" ("CompanionId", "CompanionName", "WhoPlayed") VALUES (18, 'Rosita Farisi', 'Velle Tshabalala');
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('River Song','Alex Kingston','2023-08-29 17:36:55.322508+02',NULL),
+	 ('Rory Williams','Arthur Darvill','2023-08-29 17:36:55.325917+02',NULL),
+	 ('Rose Tyler','Billie Piper','2023-08-29 17:36:55.331031+02',NULL),
+	 ('Donna Noble','Catherine Tate','2023-08-29 17:36:55.336591+02',NULL),
+	 ('Martha Jones','Freema Agyeman','2023-08-29 17:36:55.347118+02',NULL),
+	 ('Clara Oswin Oswald','Jenna Coleman','2023-08-29 17:36:55.351548+02',NULL),
+	 ('Jack Harkness','John Barrowman','2023-08-29 17:36:55.354337+02',NULL),
+	 ('Amy Pond','Karen Gillan','2023-08-29 17:36:55.357278+02',NULL),
+	 ('Mickey Smith','Noel Clarke','2023-08-29 17:36:55.368662+02',NULL),
+	 ('Sarah Jane Smith','Elisabeth Sladen','2023-08-29 17:36:55.342521+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Susan Foreman','Carole Ann Ford','2023-08-29 17:36:55.371+02',NULL),
+	 ('Ian Chesterton','William Russell','2023-08-29 17:36:55.371+02',NULL),
+	 ('Barbara Wright','Jacqueline Hill','2023-08-29 17:36:55.371+02',NULL),
+	 ('Vicki','Maureen O’Brien','2023-08-29 17:36:55.371+02',NULL),
+	 ('Steven Taylor','Peter Purves','2023-08-29 17:36:55.371+02',NULL),
+	 ('Katarina','Adrienne Hill','2023-08-29 17:36:55.371+02',NULL),
+	 ('Dodo Chaplet','Jackie Lane','2023-08-29 17:36:55.371+02',NULL),
+	 ('Ben Jackson','Michael Craze','2023-08-29 17:36:55.371+02',NULL),
+	 ('Polly Wright','Anneke Wills','2023-08-29 17:36:55.371+02',NULL),
+	 ('Jamie McCrimmon','Frazer Hines','2023-08-29 17:36:55.371+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Victoria Waterfield','Deborah Watling','2023-08-29 17:36:55.371+02',NULL),
+	 ('Zoe Heriot','Wendy Padbury','2023-08-29 17:36:55.371+02',NULL),
+	 ('Alistair Gordon Lethbridge-Stewart','Nicholas Courtney','2023-08-29 17:36:55.371+02',NULL),
+	 ('John Benton','John Levene','2023-08-29 17:36:55.371+02',NULL),
+	 ('Liz Shaw','Caroline John','2023-08-29 17:36:55.371+02',NULL),
+	 ('Mike Yates','Richard Franklin','2023-08-29 17:36:55.371+02',NULL),
+	 ('Jo Grant (Jo Jones)','Katy Manning','2023-08-29 17:36:55.371+02',NULL),
+	 ('Harry Sullivan','Ian Marter','2023-09-02 14:06:45.636677+02',NULL),
+	 ('Leela','Louise Jameson','2023-09-02 14:06:45.639105+02',NULL),
+	 ('K-9','(Voice) John Leeson','2023-09-02 14:06:45.641085+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Romana I','Mary Tamm','2023-09-02 14:06:45.643393+02',NULL),
+	 ('Romana II','Lalla Ward','2023-09-02 14:06:45.645713+02',NULL),
+	 ('Adric','Matthew Waterhouse','2023-09-02 14:06:45.648147+02',NULL),
+	 ('Nyssa','Sarah Sutton','2023-09-02 14:06:45.650051+02',NULL),
+	 ('Tegan Jovanka','Janet Fielding','2023-09-02 14:06:45.651938+02',NULL),
+	 ('Vislor Turlough','Mark Strickson','2023-09-02 14:06:45.653909+02',NULL),
+	 ('Kamelion','Gerald Flood','2023-09-02 14:06:45.656036+02',NULL),
+	 ('Peri Brown','Nicola Bryant','2023-09-02 14:06:45.658107+02',NULL),
+	 ('Melanie Bush','Bonnie Langford','2023-09-02 14:06:45.660673+02',NULL),
+	 ('Ace','Sophie Aldred','2023-09-02 14:06:45.662949+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Wilfred Mott','Bernard Cribbins','2023-08-29 17:36:55.328557+02',NULL),
+	 ('Adam Mitchell','Bruno Langley','2023-08-29 17:36:55.333768+02',NULL),
+	 ('Jackson Lake','David Morrissey','2023-08-29 17:36:55.339539+02',NULL),
+	 ('Craig Owens','James Corden','2023-08-29 17:36:55.349417+02',NULL),
+	 ('Astrid Peth','Kylie Minogue','2023-08-29 17:36:55.360387+02',NULL),
+	 ('Adelaide Brooke','Lindsay Duncan','2023-08-29 17:36:55.36371+02',NULL),
+	 ('Lady Christina de Souza','Michelle Ryan','2023-08-29 17:36:55.365911+02',NULL),
+	 ('Rosita Farisi','Velle Tshabalala','2023-08-29 17:36:55.371007+02',NULL),
+	 ('Nardole','Matt Lucas','2023-09-02 14:34:15.498888+02',NULL),
+	 ('Bill Potts','Pearl Mackie','2023-09-02 14:34:15.501251+02',NULL);
 
 -- Ajouter les docteurs
 INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (1, 1, 'William Hartnell', '1908-01-08', '1963-11-23', '1966-10-29');
@@ -137,85 +174,80 @@ INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", 
 INSERT INTO "tblDoctor" ("DoctorId", "DoctorNumber", "DoctorName", "BirthDate", "FirstEpisodeDate", "LastEpisodeDate") VALUES (12, 12, 'Peter Capaldi', '1958-04-14', '2013-12-25', NULL);
 
 -- Ajouter les ennemis
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (1, 'The Autons', 'Murderous mannequins');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (2, 'Lady Cassandra', 'The last living human being');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (3, 'The Gelth', 'An alien species comprised of gas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (4, 'The Slitheen', 'A baby-faced alien family');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (5, 'Daleks', 'Armoured aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (6, 'Jagrafess', 'A hideous, giant slug-like creature');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (7, 'Reapers', 'Winged reptile-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (8, 'The empty child', 'A by-product of a dead four-year-old child');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (9, 'The Sycorax', 'An alien race wearing bone-like masks');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (10, 'Face of Boe', 'A gigantic humanoid head');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (11, 'Sisters of Plenitude', 'A humanoid feline race, also known as "Catkind"');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (12, 'Werewolf', 'A werewolf moster');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (13, 'Krillitanes', 'Carnivorous, winged bat-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (14, 'Clockwork Droids', 'Repair droids wearing scary masks');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (15, 'Cybermen', 'Cyborg race');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (16, 'The Wire', 'An alien lifeform of pure energy, taking human female form');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (17, 'The Ood', 'Aliens with tentacled faces carrying translation spheres');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (18, 'The Beast', 'Gigantic monster claiming to be Satan');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (19, 'The Abzorbaloff', 'Obese alien which absorbs victims through touch');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (20, 'Isolus', 'Alien resembling a small white flower, which will do anything not to be alone');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (21, 'Roboforms', 'Robots disguised as Santas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (22, 'The empress of the Racnoss', 'The empress of a half-human, half arachnid race called the Racnoss');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (23, 'The Judoon', 'Galactic stormtroopers resembling rhinoceroses');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (24, 'Pyrovile', 'Volcano-dwelling creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (25, 'Adipose', 'Small, white, marshmallow-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (26, 'Vashta Nerada', 'Shadow-dwelling creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (27, 'Sontarans', 'Cloned warriors from the planet Sontar');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (28, 'The Family of Blood', 'Shapeshifting aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (29, 'Weeping Angels', 'Quantum-locked angelic beings');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (30, 'The Silence', 'Aliens with the ability to erase memory');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (31, 'The Great Intelligence', 'Sentient disembodied entity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (32, 'Ice Warriors', 'Martian reptilian warriors');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (33, 'Zygons', 'Shape-shifting aliens from Zygor');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (34, 'The Master', 'Time Lord nemesis of the Doctor');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (35, 'Axons', 'Aliens with a deceptive appearance');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (36, 'Krynoids', 'Plant-like creatures with destructive tendencies');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (37, 'Mara', 'Manifestation of evil dreams');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (38, 'Mandrels', 'Primate-like creatures with sharp teeth');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (39, 'Omega', 'Ancient Time Lord and creator of Time Lord technology');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (40, 'Sea Devils', 'Marine cousins of the Silurians');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (41, 'Silurians', 'Reptilian race that ruled the Earth millions of years ago');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (42, 'The Celestial Toymaker', 'Powerful being who creates deadly games');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (43, 'The Black Guardian', 'Manifestation of chaos and darkness');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (44, 'The White Guardian', 'Manifestation of order and light');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (45, 'Krotons', 'Cyborg crystalline entities');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (46, 'Wirrn', 'Giant insectoid creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (47, 'Yeti', 'Robotic Yeti controlled by the Great Intelligence');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (48, 'The Macra', 'Giant crab-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (49, 'Alpha Centauri', 'Ambassador of the Galactic Federation');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (50, 'The Rani', 'Time Lord renegade scientist');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (51, 'Autons', 'Living plastic creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (52, 'The Great Vampire', 'Ancient and powerful vampire-like being');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (53, 'The Nimon', 'Horned, bull-like aliens');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (54, 'The Mara', 'Manifestation of nightmares and fear');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (55, 'The Rutans', 'Shapeshifting alien race at war with the Sontarans');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (56, 'The Terileptils', 'Reptilian humanoids with advanced technology');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (57, 'The Tractators', 'Insectoid creatures that manipulate gravity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (58, 'The Vervoids', 'Plant-based creatures created for genetic experiments');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (59, 'The Zygons', 'Shape-shifting aliens with a desire for conquest');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (60, 'The Fisher King', 'Powerful alien warlord');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (61, 'The Veil', 'Entity from a pocket universe');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (62, 'The Sandmen', 'Creatures made of sleep dust');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (63, 'The Monks', 'Aliens seeking to conquer Earth through manipulation');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (64, 'The Landlord', 'Entity that feeds on human memories');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (65, 'The Eaters of Light', 'Interdimensional creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (66, 'The Emoji-Bots', 'Robotic creatures with emotion-based faces');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (67, 'The Boneless', '2D beings that absorb humans');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (68, 'The Veil', 'Entity that stalks its prey');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (69, 'The Time Beetle', 'Parasitic creature that alters timelines');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (70, 'The Flood', 'Intelligent water-based creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (71, 'The Midnight Entity', 'Entity that possesses passengers on a spacecraft');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (72, 'The Trickster', 'Temporal manipulator');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (73, 'The Wire', 'Electromagnetic entity');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (74, 'The Gelth', 'Gaseous alien race');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (75, 'The Reapers', 'Temporal vortices that devour time-altered areas');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (76, 'The Isolus', 'Lonely child-like beings');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (77, 'The Hoix', 'Dog-like creatures from the Void');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (78, 'The Racnoss', 'Giant spider-like creatures');
-INSERT INTO "tblEnemy" ("EnemyId", "EnemyName", "Description") VALUES (79, 'The Judoon', 'Rhinoceros-headed intergalactic police force');
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('The Autons','Murderous mannequins','2023-08-29 17:36:55.409901+02',NULL),
+	 ('Krillitanes','Carnivorous, winged bat-like creatures','2023-08-29 17:36:55.460963+02',NULL),
+	 ('The empty child','A by-product of a dead four-year-old child','2023-08-29 17:36:55.440663+02',NULL),
+	 ('The Slitheen','A baby-faced alien family','2023-08-29 17:36:55.420701+02',NULL),
+	 ('Lady Cassandra','The last living human being','2023-08-29 17:36:55.414924+02',NULL),
+	 ('Daleks','Armoured aliens','2023-08-29 17:36:55.424263+02',NULL),
+	 ('The Gelth','An alien species comprised of gas','2023-08-29 17:36:55.41711+02',NULL),
+	 ('Jagrafess','A hideous, giant slug-like creature','2023-08-29 17:36:55.429236+02',NULL),
+	 ('Reapers','Winged reptile-like creatures','2023-08-29 17:36:55.433107+02',NULL),
+	 ('The Sycorax','An alien race wearing bone-like masks','2023-08-29 17:36:55.449484+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('Werewolf','A werewolf moster','2023-08-29 17:36:55.458304+02',NULL),
+	 ('Clockwork Droids','Repair droids wearing scary masks','2023-08-29 17:36:55.463539+02',NULL),
+	 ('Cybermen','Cyborg race','2023-08-29 17:36:55.466043+02',NULL),
+	 ('The Wire','An alien lifeform of pure energy, taking human female form','2023-08-29 17:36:55.468577+02',NULL),
+	 ('The Ood','Aliens with tentacled faces carrying translation spheres','2023-08-29 17:36:55.470808+02',NULL),
+	 ('The Beast(Demon)','Gigantic monster claiming to be Satan','2023-08-29 17:36:55.473708+02',NULL),
+	 ('The Abzorbaloff','Obese alien which absorbs victims through touch','2023-08-29 17:36:55.476632+02',NULL),
+	 ('Isolus','Alien resembling a small white flower, which will do anything not to be alone','2023-08-29 17:36:55.479082+02',NULL),
+	 ('Roboforms','Robots disguised as Santas','2023-08-29 17:36:55.481463+02',NULL),
+	 ('The Judoon','Galactic stormtroopers resembling rhinoceroses','2023-08-29 17:36:55.486539+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('Pyrovile','Volcano-dwelling creatures','2023-08-29 17:36:55.489169+02',NULL),
+	 ('Adipose','Small, white, marshmallow-like creatures','2023-08-29 17:36:55.492243+02',NULL),
+	 ('Vashta Nerada','Shadow-dwelling creatures','2023-08-29 17:36:55.496243+02',NULL),
+	 ('Sontarans','Cloned warriors from the planet Sontar','2023-08-29 17:36:55.498317+02',NULL),
+	 ('The Family of Blood','Shapeshifting aliens','2023-08-29 17:36:55.500625+02',NULL),
+	 ('Weeping Angels','Quantum-locked angelic beings','2023-08-29 17:36:55.50283+02',NULL),
+	 ('The Silence','Aliens with the ability to erase memory','2023-08-29 17:36:55.505247+02',NULL),
+	 ('The Great Intelligence(Snowman)','Sentient disembodied entity','2023-08-29 17:36:55.509843+02',NULL),
+	 ('Ice Warriors','Martian reptilian warriors','2023-08-29 17:36:55.512648+02',NULL),
+	 ('Zygons','Shape-shifting aliens from Zygor','2023-08-29 17:36:55.51521+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('The Master','Time Lord nemesis of the Doctor','2023-08-29 17:36:55.517603+02',NULL),
+	 ('Axons','Aliens with a deceptive appearance','2023-08-29 17:36:55.520139+02',NULL),
+	 ('Krynoids','Plant-like creatures with destructive tendencies','2023-08-29 17:36:55.52223+02',NULL),
+	 ('Mara','Manifestation of evil dreams','2023-08-29 17:36:55.525125+02',NULL),
+	 ('Mandrels','Primate-like creatures with sharp teeth','2023-08-29 17:36:55.527278+02',NULL),
+	 ('Omega','Ancient Time Lord and creator of Time Lord technology','2023-08-29 17:36:55.529382+02',NULL),
+	 ('Sea Devils','Marine cousins of the Silurians','2023-08-29 17:36:55.531454+02',NULL),
+	 ('Silurians','Reptilian race that ruled the Earth millions of years ago','2023-08-29 17:36:55.533544+02',NULL),
+	 ('The Celestial Toymaker','Powerful being who creates deadly games','2023-08-29 17:36:55.53559+02',NULL),
+	 ('The Black Guardian','Manifestation of chaos and darkness','2023-08-29 17:36:55.539191+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('The White Guardian','Manifestation of order and light','2023-08-29 17:36:55.543674+02',NULL),
+	 ('Krotons','Cyborg crystalline entities','2023-08-29 17:36:55.546261+02',NULL),
+	 ('Wirrn','Giant insectoid creatures','2023-08-29 17:36:55.548457+02',NULL),
+	 ('Yeti','Robotic Yeti controlled by the Great Intelligence','2023-08-29 17:36:55.550659+02',NULL),
+	 ('The Macra','Giant crab-like creatures','2023-08-29 17:36:55.553391+02',NULL),
+	 ('Alpha Centaurans','Ambassador of the Galactic Federation','2023-08-29 17:36:55.555546+02',NULL),
+	 ('The Rani','Time Lord renegade scientist','2023-08-29 17:36:55.558353+02',NULL),
+	 ('The Great Vampire','Ancient and powerful vampire-like being','2023-08-29 17:36:55.564112+02',NULL),
+	 ('The Nimon','Horned, bull-like aliens','2023-08-29 17:36:55.567131+02',NULL),
+	 ('The Rutans','Shapeshifting alien race at war with the Sontarans','2023-08-29 17:36:55.571696+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('The Terileptils','Reptilian humanoids with advanced technology','2023-08-29 17:36:55.575226+02',NULL),
+	 ('The Tractators','Insectoid creatures that manipulate gravity','2023-08-29 17:36:55.577429+02',NULL),
+	 ('The Vervoids','Plant-based creatures created for genetic experiments','2023-08-29 17:36:55.581316+02',NULL),
+	 ('The Fisher King','Powerful alien warlord','2023-08-29 17:36:55.586995+02',NULL),
+	 ('The Veil','Entity from a pocket universe','2023-08-29 17:36:55.596001+02',NULL),
+	 ('The Sandmen','Creatures made of sleep dust','2023-08-29 17:36:55.598391+02',NULL),
+	 ('The Monks','Aliens seeking to conquer Earth through manipulation','2023-08-29 17:36:55.60545+02',NULL),
+	 ('The Landlord','Entity that feeds on human memories','2023-08-29 17:36:55.607896+02',NULL),
+	 ('The Eaters of Light','Interdimensional creatures','2023-08-29 17:36:55.609836+02',NULL),
+	 ('The Emoji-Bots','Robotic creatures with emotion-based faces','2023-08-29 17:36:55.613197+02',NULL);
+INSERT INTO public."tblEnemy" ("EnemyName","Description",created_at,updated_at) VALUES
+	 ('The Boneless','2D beings that absorb humans','2023-08-29 17:36:55.616321+02',NULL),
+	 ('The Time Beetle','Parasitic creature that alters timelines','2023-08-29 17:36:55.620784+02',NULL),
+	 ('The Flood','Intelligent water-based creatures','2023-08-29 17:36:55.623866+02',NULL),
+	 ('The Midnight Entity','Entity that possesses passengers on a spacecraft','2023-08-29 17:36:55.626901+02',NULL),
+	 ('The Trickster','Temporal manipulator','2023-08-29 17:36:55.629353+02',NULL),
+	 ('The Hoix','Dog-like creatures from the Void','2023-08-29 17:36:55.654058+02',NULL),
+	 ('The Racnoss','Giant spider-like creatures','2023-08-29 17:36:55.657799+02',NULL);
 
 -- add the episodes
 INSERT INTO "tblEpisode" ("EpisodeId", "SeriesNumber", "EpisodeNumber", "EpisodeType", "Title", "EpisodeDate", "AuthorId", "DoctorId", "Notes")
