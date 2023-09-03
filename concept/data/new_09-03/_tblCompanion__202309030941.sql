@@ -1,0 +1,55 @@
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('River Song','Alex Kingston','2023-08-29 17:36:55.322508+02',NULL),
+	 ('Rory Williams','Arthur Darvill','2023-08-29 17:36:55.325917+02',NULL),
+	 ('Rose Tyler','Billie Piper','2023-08-29 17:36:55.331031+02',NULL),
+	 ('Donna Noble','Catherine Tate','2023-08-29 17:36:55.336591+02',NULL),
+	 ('Martha Jones','Freema Agyeman','2023-08-29 17:36:55.347118+02',NULL),
+	 ('Clara Oswin Oswald','Jenna Coleman','2023-08-29 17:36:55.351548+02',NULL),
+	 ('Jack Harkness','John Barrowman','2023-08-29 17:36:55.354337+02',NULL),
+	 ('Amy Pond','Karen Gillan','2023-08-29 17:36:55.357278+02',NULL),
+	 ('Mickey Smith','Noel Clarke','2023-08-29 17:36:55.368662+02',NULL),
+	 ('Sarah Jane Smith','Elisabeth Sladen','2023-08-29 17:36:55.342521+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Susan Foreman','Carole Ann Ford','2023-08-29 17:36:55.371+02',NULL),
+	 ('Ian Chesterton','William Russell','2023-08-29 17:36:55.371+02',NULL),
+	 ('Barbara Wright','Jacqueline Hill','2023-08-29 17:36:55.371+02',NULL),
+	 ('Vicki','Maureen O’Brien','2023-08-29 17:36:55.371+02',NULL),
+	 ('Steven Taylor','Peter Purves','2023-08-29 17:36:55.371+02',NULL),
+	 ('Katarina','Adrienne Hill','2023-08-29 17:36:55.371+02',NULL),
+	 ('Dodo Chaplet','Jackie Lane','2023-08-29 17:36:55.371+02',NULL),
+	 ('Ben Jackson','Michael Craze','2023-08-29 17:36:55.371+02',NULL),
+	 ('Polly Wright','Anneke Wills','2023-08-29 17:36:55.371+02',NULL),
+	 ('Jamie McCrimmon','Frazer Hines','2023-08-29 17:36:55.371+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Victoria Waterfield','Deborah Watling','2023-08-29 17:36:55.371+02',NULL),
+	 ('Zoe Heriot','Wendy Padbury','2023-08-29 17:36:55.371+02',NULL),
+	 ('Alistair Gordon Lethbridge-Stewart','Nicholas Courtney','2023-08-29 17:36:55.371+02',NULL),
+	 ('John Benton','John Levene','2023-08-29 17:36:55.371+02',NULL),
+	 ('Liz Shaw','Caroline John','2023-08-29 17:36:55.371+02',NULL),
+	 ('Mike Yates','Richard Franklin','2023-08-29 17:36:55.371+02',NULL),
+	 ('Jo Grant (Jo Jones)','Katy Manning','2023-08-29 17:36:55.371+02',NULL),
+	 ('Harry Sullivan','Ian Marter','2023-09-02 14:06:45.636677+02',NULL),
+	 ('Leela','Louise Jameson','2023-09-02 14:06:45.639105+02',NULL),
+	 ('K-9','(Voice) John Leeson','2023-09-02 14:06:45.641085+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Romana I','Mary Tamm','2023-09-02 14:06:45.643393+02',NULL),
+	 ('Romana II','Lalla Ward','2023-09-02 14:06:45.645713+02',NULL),
+	 ('Adric','Matthew Waterhouse','2023-09-02 14:06:45.648147+02',NULL),
+	 ('Nyssa','Sarah Sutton','2023-09-02 14:06:45.650051+02',NULL),
+	 ('Tegan Jovanka','Janet Fielding','2023-09-02 14:06:45.651938+02',NULL),
+	 ('Vislor Turlough','Mark Strickson','2023-09-02 14:06:45.653909+02',NULL),
+	 ('Kamelion','Gerald Flood','2023-09-02 14:06:45.656036+02',NULL),
+	 ('Peri Brown','Nicola Bryant','2023-09-02 14:06:45.658107+02',NULL),
+	 ('Melanie Bush','Bonnie Langford','2023-09-02 14:06:45.660673+02',NULL),
+	 ('Ace','Sophie Aldred','2023-09-02 14:06:45.662949+02',NULL);
+INSERT INTO public."tblCompanion" ("CompanionName","WhoPlayed",created_at,updated_at) VALUES
+	 ('Wilfred Mott','Bernard Cribbins','2023-08-29 17:36:55.328557+02',NULL),
+	 ('Adam Mitchell','Bruno Langley','2023-08-29 17:36:55.333768+02',NULL),
+	 ('Jackson Lake','David Morrissey','2023-08-29 17:36:55.339539+02',NULL),
+	 ('Craig Owens','James Corden','2023-08-29 17:36:55.349417+02',NULL),
+	 ('Astrid Peth','Kylie Minogue','2023-08-29 17:36:55.360387+02',NULL),
+	 ('Adelaide Brooke','Lindsay Duncan','2023-08-29 17:36:55.36371+02',NULL),
+	 ('Lady Christina de Souza','Michelle Ryan','2023-08-29 17:36:55.365911+02',NULL),
+	 ('Rosita Farisi','Velle Tshabalala','2023-08-29 17:36:55.371007+02',NULL),
+	 ('Nardole','Matt Lucas','2023-09-02 14:34:15.498888+02',NULL),
+	 ('Bill Potts','Pearl Mackie','2023-09-02 14:34:15.501251+02',NULL);
