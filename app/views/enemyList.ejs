@@ -4,7 +4,7 @@
     <section class="enemiesList">
         <% enemies.forEach(enemy => { %>
             <article>
-                    <a href="/enemy/details/<%= enemy.EnemyId %>">
+                    <a href="/enemy/<%= enemy.EnemyId %>">
                         <span><%= enemy.EnemyName %></span>
                     <img src="/img/enemies/<%= enemy.EnemyId %>.jpg" alt="#">
                     </a> 
