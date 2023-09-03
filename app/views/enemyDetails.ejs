@@ -4,19 +4,21 @@
 <main>
     <section>
         <h1>Details de <%= enemy.EnemyName %></h1>
-                <article>
+                <article class="enemiesDetails">
 
                     <% if (locals.enemy) { %>
 
                     <img src="/img/enemies/<%= enemy.EnemyId %>.jpg" alt="<%= enemy.EnemyName %> picture">
                     
+                    <aside>
+                        <h3>Informations</h3>
+                        <ul>
+                            <li>Numéro : <%= enemy.EnemyId %></li>
+                            <li>Nom / Dénommination : <%= enemy.EnemyName %></li>
+                            <li>Description : <%= enemy.Description %></li>
+                        </ul>
+                    </aside>
                 </article>
-                <h3>Informations</h3>
-                <ul>
-                    <li>Numéro : <%= enemy.EnemyId %></li>
-                    <li>Nom / Dénommination : <%= enemy.EnemyName %></li>
-                    <li>Description : <%= enemy.Description %></li>
-                </ul>
                 <% }  else  { %>
                     <p>Pas d'ennemi à afficher</p>
                 <% }   %>

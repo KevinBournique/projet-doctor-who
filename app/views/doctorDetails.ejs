@@ -4,21 +4,23 @@
 <main>
     <section>
         <h1>Details du Doctor</h1>
-                <article>
+                <article class="doctorsDetails">
 
                     <% if (locals.doctor) { %>
 
                     <img src="/img/doctors/<%= doctor.DoctorId %>.jpg" alt="<%= doctor.DoctorName %>">
                     
+                    <aside>
+                        <h3>Informations</h3>
+                        <ul>
+                            <li>Numéro : <%= doctor.DoctorId %></li>
+                            <li>Prénom et nom de l'acteur : <%= doctor.DoctorName %></li>
+                            <li>Date de naissance de l'acteur : <%= doctor.BirthDate %></li>
+                            <li>Première apparition : <%= doctor.FirstEpisodeDate %></li>
+                            <li>Dernière apparition : <%= doctor.LastEpisodeDate %></li>
+                        </ul>
+                    </aside>
                 </article>
-                <h3>Informations</h3>
-                <ul>
-                    <li>Numéro : <%= doctor.DoctorId %></li>
-                    <li>Prénom et nom de l'acteur : <%= doctor.DoctorName %></li>
-                    <li>Date de naissance de l'acteur : <%= doctor.BirthDate %></li>
-                    <li>Première apparition : <%= doctor.FirstEpisodeDate %></li>
-                    <li>Dernière apparition : <%= doctor.LastEpisodeDate %></li>
-                </ul>
                 <% }  else  { %>
                     <p>Pas de Doctor à afficher</p>
                 <% }   %>
